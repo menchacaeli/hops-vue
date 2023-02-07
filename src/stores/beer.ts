@@ -13,7 +13,7 @@ export const useBeerStore = defineStore('beer', {
 
   actions: {
     getBeers() {
-      this.beers  = useCollection(collection(db, 'beers'))
+      this.beers = useCollection(collection(db, 'beers'))
     },
   },
 })
