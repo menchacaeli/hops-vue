@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67eca10a-7763-4c12-a02e-0fa1d9f12503" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BeerCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/BeerView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/DashboardView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/beer/BeerFilter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BreweryCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/brewery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/BreweryView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BeerCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BeerCard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/beer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/beer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/BeerView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/BeerView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/beer/BeerFilter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/beer/BeerFilter.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/emenchaca/repos/hops-vue/src/views/beer",
+    "last_opened_file_path": "/Users/emenchaca/repos/hops-vue/src/stores",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +57,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stores" />
+      <recent name="$PROJECT_DIR$/src/views" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/views/beer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675633929720</updated>
       <workItem from="1675633931309" duration="866000" />
-      <workItem from="1675725529720" duration="9796000" />
+      <workItem from="1675725529720" duration="10216000" />
+      <workItem from="1676600819648" duration="16182000" />
     </task>
     <servers />
   </component>

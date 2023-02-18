@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import { computed } from "vue";
 import type { PropType } from "vue";
 
 const props = defineProps({
-  beer: Object as PropType<any>
+  brewery: Object as PropType<any>
 })
 
-const shortDescription = computed(() => {
-  return props.beer.description.length > 180 ? `${props.beer.description.slice(0, 180)} ...` : props.beer.description
-})
 </script>
 
 <template>
@@ -19,20 +15,20 @@ const shortDescription = computed(() => {
         size="125"
         rounded="0"
       >
-        <v-img :src="props.beer.image ? props.beer.image : 'https://cdn.vuetifyjs.com/images/cards/halcyon.png'"></v-img>
+        <v-img :src="props.brewery.image ? props.brewery.image : 'https://cdn.vuetifyjs.com/images/cards/halcyon.png'"></v-img>
       </v-avatar>
 
       <div>
         <v-card-title class="text-h5">
-          {{ props.beer.name }}
+          {{ props.brewery.name }}
         </v-card-title>
 
         <v-card-subtitle class="text-overline">
-          {{props.beer.type}} • {{props.beer.brewery}}
+          {{props.brewery.website}} • {{props.brewery.phone}}
         </v-card-subtitle>
 
         <v-card-text>
-          {{ shortDescription }}
+          {{ props.brewery.address }}
         </v-card-text>
 
         <v-card-actions>

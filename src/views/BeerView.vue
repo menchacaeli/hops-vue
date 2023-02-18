@@ -4,7 +4,7 @@ import BeerCard from '../components/BeerCard.vue'
 import BeerFilter from "@/views/beer/BeerFilter.vue";
 
 const beerStore = useBeerStore()
-beerStore.getBeers()
+beerStore.getBeers(null)
 </script>
 
 <template>

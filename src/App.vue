@@ -20,6 +20,7 @@ const handleToggleTheme = () => theme.value = theme.value === 'light' ? 'dark' :
       <v-list>
         <v-list-item to="/" title="Dashboard"></v-list-item>
         <v-list-item to="/beer" title="Beer"></v-list-item>
+        <v-list-item to="/brewery" title="Breweries"></v-list-item>
       </v-list>
     </v-navigation-drawer>
 
